@@ -1,0 +1,8 @@
+create database crudpdo;
+use crudpdo;
+create table pessoa(
+	id int AUTO_INCREMENT primary key,
+	nome varchar(40),
+	telefone varchar(15),
+	email varchar(50)
+);
